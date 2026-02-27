@@ -1,0 +1,41 @@
+# === 所有权重文件（.pt）===
+*.pt
+
+# === 数据集（太大，不提交） ===
+yolo_traffic/data/_cache/
+yolo_traffic/data/images/
+yolo_traffic/data/labels/
+voc_two_stage/data/VOCdevkit/
+emotion_recognition/data/FER-2013/
+
+# === YOLO 训练中间产物（runs/ 由 ultralytics 自动生成）===
+*/runs/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# === IDE & OS ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# === 嵌套仓库 ===
+/ImageClassification/
+
+# === 旧目录残留（已迁移，仅顶层） ===
+/projects/
+/datasets/
+/weights/
+/outputs/
+/shared/
+/runs/
+
+# === 文档（本地用，不提交）===
+/docs/
