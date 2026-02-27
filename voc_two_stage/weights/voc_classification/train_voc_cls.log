@@ -1,0 +1,353 @@
+2026-02-25 13:34:47 [INFO] ============================================================
+2026-02-25 13:34:47 [INFO] VOC Classification Training Configuration:
+2026-02-25 13:34:47 [INFO]   batch_size: 32
+2026-02-25 13:34:47 [INFO]   crop_padding: 0.1
+2026-02-25 13:34:47 [INFO]   data_root: ../../../datasets/voc/VOCdevkit
+2026-02-25 13:34:47 [INFO]   device: mps
+2026-02-25 13:34:47 [INFO]   epochs: 100
+2026-02-25 13:34:47 [INFO]   input_size: 224
+2026-02-25 13:34:47 [INFO]   loss_type: cross_entropy
+2026-02-25 13:34:47 [INFO]   lr: 0.01
+2026-02-25 13:34:47 [INFO]   min_crop_size: 32
+2026-02-25 13:34:47 [INFO]   min_lr: 1e-06
+2026-02-25 13:34:47 [INFO]   model_name: resnet18
+2026-02-25 13:34:47 [INFO]   momentum: 0.9
+2026-02-25 13:34:47 [INFO]   num_classes: 21
+2026-02-25 13:34:47 [INFO]   num_workers: 4
+2026-02-25 13:34:47 [INFO]   output_dir: ../../../outputs/archived/voc_classification
+2026-02-25 13:34:47 [INFO]   pretrained: True
+2026-02-25 13:34:47 [INFO]   save_best: True
+2026-02-25 13:34:47 [INFO]   scheduler: cosine
+2026-02-25 13:34:47 [INFO]   seed: 42
+2026-02-25 13:34:47 [INFO]   voc_year: 2007
+2026-02-25 13:34:47 [INFO]   warmup_epochs: 5
+2026-02-25 13:34:47 [INFO]   weight_decay: 0.0001
+2026-02-25 13:34:47 [INFO]   device (actual): mps
+2026-02-25 13:34:47 [INFO] ============================================================
+2026-02-25 13:34:47 [INFO] Building datasets...
+2026-02-25 13:35:23 [INFO] ============================================================
+2026-02-25 13:35:23 [INFO] VOC Classification Training Configuration:
+2026-02-25 13:35:23 [INFO]   batch_size: 32
+2026-02-25 13:35:23 [INFO]   crop_padding: 0.1
+2026-02-25 13:35:23 [INFO]   data_root: ../../../datasets/voc/VOCdevkit
+2026-02-25 13:35:23 [INFO]   device: mps
+2026-02-25 13:35:23 [INFO]   epochs: 100
+2026-02-25 13:35:23 [INFO]   input_size: 224
+2026-02-25 13:35:23 [INFO]   loss_type: cross_entropy
+2026-02-25 13:35:23 [INFO]   lr: 0.01
+2026-02-25 13:35:23 [INFO]   min_crop_size: 32
+2026-02-25 13:35:23 [INFO]   min_lr: 1e-06
+2026-02-25 13:35:23 [INFO]   model_name: resnet18
+2026-02-25 13:35:23 [INFO]   momentum: 0.9
+2026-02-25 13:35:23 [INFO]   num_classes: 21
+2026-02-25 13:35:23 [INFO]   num_workers: 4
+2026-02-25 13:35:23 [INFO]   output_dir: ../../../outputs/archived/voc_classification
+2026-02-25 13:35:23 [INFO]   pretrained: True
+2026-02-25 13:35:23 [INFO]   save_best: True
+2026-02-25 13:35:23 [INFO]   scheduler: cosine
+2026-02-25 13:35:23 [INFO]   seed: 42
+2026-02-25 13:35:23 [INFO]   voc_year: 2007
+2026-02-25 13:35:23 [INFO]   warmup_epochs: 5
+2026-02-25 13:35:23 [INFO]   weight_decay: 0.0001
+2026-02-25 13:35:23 [INFO]   device (actual): mps
+2026-02-25 13:35:23 [INFO] ============================================================
+2026-02-25 13:35:23 [INFO] Building datasets...
+2026-02-25 13:36:15 [INFO] ============================================================
+2026-02-25 13:36:15 [INFO] VOC Classification Training Configuration:
+2026-02-25 13:36:15 [INFO]   batch_size: 32
+2026-02-25 13:36:15 [INFO]   crop_padding: 0.1
+2026-02-25 13:36:15 [INFO]   data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/voc/VOCdevkit
+2026-02-25 13:36:15 [INFO]   device: mps
+2026-02-25 13:36:15 [INFO]   epochs: 100
+2026-02-25 13:36:15 [INFO]   input_size: 224
+2026-02-25 13:36:15 [INFO]   loss_type: cross_entropy
+2026-02-25 13:36:15 [INFO]   lr: 0.01
+2026-02-25 13:36:15 [INFO]   min_crop_size: 32
+2026-02-25 13:36:15 [INFO]   min_lr: 1e-06
+2026-02-25 13:36:15 [INFO]   model_name: resnet18
+2026-02-25 13:36:15 [INFO]   momentum: 0.9
+2026-02-25 13:36:15 [INFO]   num_classes: 21
+2026-02-25 13:36:15 [INFO]   num_workers: 4
+2026-02-25 13:36:15 [INFO]   output_dir: ../../../outputs/archived/voc_classification
+2026-02-25 13:36:15 [INFO]   pretrained: True
+2026-02-25 13:36:15 [INFO]   save_best: True
+2026-02-25 13:36:15 [INFO]   scheduler: cosine
+2026-02-25 13:36:15 [INFO]   seed: 42
+2026-02-25 13:36:15 [INFO]   voc_year: 2007
+2026-02-25 13:36:15 [INFO]   warmup_epochs: 5
+2026-02-25 13:36:15 [INFO]   weight_decay: 0.0001
+2026-02-25 13:36:15 [INFO]   device (actual): mps
+2026-02-25 13:36:15 [INFO] ============================================================
+2026-02-25 13:36:15 [INFO] Building datasets...
+2026-02-25 13:36:15 [INFO]   Train samples: 12608
+2026-02-25 13:36:15 [INFO]   Val   samples: 6307
+2026-02-25 13:36:15 [INFO] Building model: resnet18...
+2026-02-25 13:36:16 [INFO]   Total parameters: 11,187,285
+2026-02-25 13:36:16 [INFO] Start training for 100 epochs...
+2026-02-25 13:36:16 [INFO] 
+2026-02-25 13:40:42 [INFO] ============================================================
+2026-02-25 13:40:42 [INFO] VOC Classification Training Configuration:
+2026-02-25 13:40:42 [INFO]   batch_size: 32
+2026-02-25 13:40:42 [INFO]   crop_padding: 0.1
+2026-02-25 13:40:42 [INFO]   data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/voc/VOCdevkit
+2026-02-25 13:40:42 [INFO]   device: mps
+2026-02-25 13:40:42 [INFO]   epochs: 100
+2026-02-25 13:40:42 [INFO]   input_size: 224
+2026-02-25 13:40:42 [INFO]   loss_type: cross_entropy
+2026-02-25 13:40:42 [INFO]   lr: 0.01
+2026-02-25 13:40:42 [INFO]   min_crop_size: 32
+2026-02-25 13:40:42 [INFO]   min_lr: 1e-06
+2026-02-25 13:40:42 [INFO]   model_name: resnet18
+2026-02-25 13:40:42 [INFO]   momentum: 0.9
+2026-02-25 13:40:42 [INFO]   num_classes: 21
+2026-02-25 13:40:42 [INFO]   num_workers: 4
+2026-02-25 13:40:42 [INFO]   output_dir: ../../../outputs/archived/voc_classification
+2026-02-25 13:40:42 [INFO]   pretrained: True
+2026-02-25 13:40:42 [INFO]   save_best: True
+2026-02-25 13:40:42 [INFO]   scheduler: cosine
+2026-02-25 13:40:42 [INFO]   seed: 42
+2026-02-25 13:40:42 [INFO]   voc_year: 2007
+2026-02-25 13:40:42 [INFO]   warmup_epochs: 5
+2026-02-25 13:40:42 [INFO]   weight_decay: 0.0001
+2026-02-25 13:40:42 [INFO]   device (actual): mps
+2026-02-25 13:40:42 [INFO] ============================================================
+2026-02-25 13:40:42 [INFO] Building datasets...
+2026-02-25 13:40:43 [INFO]   Train samples: 12608
+2026-02-25 13:40:43 [INFO]   Val   samples: 6307
+2026-02-25 13:40:43 [INFO] Building model: resnet18...
+2026-02-25 13:40:43 [INFO]   Total parameters: 11,187,285
+2026-02-25 13:40:43 [INFO] Start training for 100 epochs...
+2026-02-25 13:40:43 [INFO] 
+2026-02-25 13:43:26 [INFO] Epoch [1/100]  Train: loss=0.7477 acc=78.57%  |  Val: loss=0.2589 acc=92.36%  |  LR: 0.004000  Time: 00:02:43
+2026-02-25 13:43:27 [INFO]   -> Best model saved (acc=92.36%)
+2026-02-25 13:46:22 [INFO] Epoch [2/100]  Train: loss=0.3963 acc=87.47%  |  Val: loss=0.2043 acc=93.58%  |  LR: 0.006000  Time: 00:02:54
+2026-02-25 13:46:23 [INFO]   -> Best model saved (acc=93.58%)
+2026-02-25 13:49:24 [INFO] Epoch [3/100]  Train: loss=0.4052 acc=87.07%  |  Val: loss=0.3402 acc=89.11%  |  LR: 0.008000  Time: 00:03:00
+2026-02-25 13:52:39 [INFO] Epoch [4/100]  Train: loss=0.4250 acc=86.58%  |  Val: loss=0.2630 acc=91.37%  |  LR: 0.010000  Time: 00:03:14
+2026-02-25 13:55:43 [INFO] Epoch [5/100]  Train: loss=0.4279 acc=86.32%  |  Val: loss=0.3489 acc=88.57%  |  LR: 0.010000  Time: 00:03:04
+2026-02-25 13:58:52 [INFO] Epoch [6/100]  Train: loss=0.3238 acc=89.40%  |  Val: loss=0.3129 acc=89.98%  |  LR: 0.009997  Time: 00:03:07
+2026-02-25 14:02:01 [INFO] Epoch [7/100]  Train: loss=0.2752 acc=91.13%  |  Val: loss=0.1825 acc=94.23%  |  LR: 0.009989  Time: 00:03:08
+2026-02-25 14:02:02 [INFO]   -> Best model saved (acc=94.23%)
+2026-02-25 14:05:32 [INFO] Epoch [8/100]  Train: loss=0.1943 acc=93.83%  |  Val: loss=0.2189 acc=93.50%  |  LR: 0.009975  Time: 00:03:30
+2026-02-25 14:09:04 [INFO] Epoch [9/100]  Train: loss=0.1590 acc=94.80%  |  Val: loss=0.0975 acc=96.97%  |  LR: 0.009956  Time: 00:03:30
+2026-02-25 14:09:04 [INFO]   -> Best model saved (acc=96.97%)
+2026-02-25 14:12:31 [INFO] Epoch [10/100]  Train: loss=0.1338 acc=95.68%  |  Val: loss=0.1109 acc=96.42%  |  LR: 0.009932  Time: 00:03:25
+2026-02-25 14:16:06 [INFO] Epoch [11/100]  Train: loss=0.1224 acc=95.89%  |  Val: loss=0.0638 acc=97.73%  |  LR: 0.009902  Time: 00:03:34
+2026-02-25 14:16:07 [INFO]   -> Best model saved (acc=97.73%)
+2026-02-25 14:18:56 [INFO] Epoch [12/100]  Train: loss=0.0943 acc=97.03%  |  Val: loss=0.0707 acc=97.89%  |  LR: 0.009867  Time: 00:02:48
+2026-02-25 14:18:56 [INFO]   -> Best model saved (acc=97.89%)
+2026-02-25 14:22:23 [INFO] Epoch [13/100]  Train: loss=0.0886 acc=97.20%  |  Val: loss=0.0598 acc=98.02%  |  LR: 0.009826  Time: 00:03:26
+2026-02-25 14:22:23 [INFO]   -> Best model saved (acc=98.02%)
+2026-02-25 14:26:16 [INFO] Epoch [14/100]  Train: loss=0.0802 acc=97.34%  |  Val: loss=0.0487 acc=98.35%  |  LR: 0.009780  Time: 00:03:52
+2026-02-25 14:26:17 [INFO]   -> Best model saved (acc=98.35%)
+2026-02-25 14:30:09 [INFO] Epoch [15/100]  Train: loss=0.0764 acc=97.49%  |  Val: loss=0.0360 acc=98.86%  |  LR: 0.009729  Time: 00:03:52
+2026-02-25 14:30:10 [INFO]   -> Best model saved (acc=98.86%)
+2026-02-25 14:33:42 [INFO] Epoch [16/100]  Train: loss=0.0571 acc=97.94%  |  Val: loss=0.0342 acc=98.94%  |  LR: 0.009673  Time: 00:03:32
+2026-02-25 14:33:43 [INFO]   -> Best model saved (acc=98.94%)
+2026-02-25 14:36:20 [INFO] ============================================================
+2026-02-25 14:36:20 [INFO] VOC Classification Training Configuration:
+2026-02-25 14:36:20 [INFO]   batch_size: 32
+2026-02-25 14:36:20 [INFO]   crop_padding: 0.1
+2026-02-25 14:36:20 [INFO]   data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/voc/VOCdevkit
+2026-02-25 14:36:20 [INFO]   device: mps
+2026-02-25 14:36:20 [INFO]   epochs: 100
+2026-02-25 14:36:20 [INFO]   input_size: 224
+2026-02-25 14:36:20 [INFO]   loss_type: cross_entropy
+2026-02-25 14:36:20 [INFO]   lr: 0.01
+2026-02-25 14:36:20 [INFO]   min_crop_size: 32
+2026-02-25 14:36:20 [INFO]   min_lr: 1e-06
+2026-02-25 14:36:20 [INFO]   model_name: resnet18
+2026-02-25 14:36:20 [INFO]   momentum: 0.9
+2026-02-25 14:36:20 [INFO]   num_classes: 21
+2026-02-25 14:36:20 [INFO]   num_workers: 4
+2026-02-25 14:36:20 [INFO]   output_dir: ../../../outputs/archived/voc_classification
+2026-02-25 14:36:20 [INFO]   pretrained: True
+2026-02-25 14:36:20 [INFO]   save_best: True
+2026-02-25 14:36:20 [INFO]   scheduler: cosine
+2026-02-25 14:36:20 [INFO]   seed: 42
+2026-02-25 14:36:20 [INFO]   voc_year: 2007
+2026-02-25 14:36:20 [INFO]   warmup_epochs: 5
+2026-02-25 14:36:20 [INFO]   weight_decay: 0.0001
+2026-02-25 14:36:20 [INFO]   device (actual): mps
+2026-02-25 14:36:20 [INFO] ============================================================
+2026-02-25 14:36:20 [INFO] Building datasets...
+2026-02-25 14:36:20 [INFO]   Train samples: 12608
+2026-02-25 14:36:20 [INFO]   Val   samples: 6307
+2026-02-25 14:36:20 [INFO] Building model: resnet18...
+2026-02-25 14:36:21 [INFO]   Total parameters: 11,187,285
+2026-02-25 14:36:21 [INFO] Start training for 100 epochs...
+2026-02-25 14:36:21 [INFO] 
+2026-02-25 14:39:26 [INFO] Epoch [1/100]  Train: loss=0.7477 acc=78.57%  |  Val: loss=0.2589 acc=92.36%  |  LR: 0.004000  Time: 00:03:05
+2026-02-25 14:39:26 [INFO]   -> Best model saved (acc=92.36%)
+2026-02-25 14:43:01 [INFO] Epoch [2/100]  Train: loss=0.3963 acc=87.47%  |  Val: loss=0.2043 acc=93.58%  |  LR: 0.006000  Time: 00:03:34
+2026-02-25 14:43:02 [INFO]   -> Best model saved (acc=93.58%)
+2026-02-25 14:46:24 [INFO] Epoch [3/100]  Train: loss=0.4052 acc=87.07%  |  Val: loss=0.3402 acc=89.11%  |  LR: 0.008000  Time: 00:03:22
+2026-02-25 14:49:32 [INFO] Epoch [4/100]  Train: loss=0.4250 acc=86.58%  |  Val: loss=0.2630 acc=91.37%  |  LR: 0.010000  Time: 00:03:07
+2026-02-25 14:52:35 [INFO] Epoch [5/100]  Train: loss=0.4279 acc=86.32%  |  Val: loss=0.3489 acc=88.57%  |  LR: 0.010000  Time: 00:03:02
+2026-02-25 14:55:38 [INFO] Epoch [6/100]  Train: loss=0.3238 acc=89.40%  |  Val: loss=0.3129 acc=89.98%  |  LR: 0.009997  Time: 00:03:02
+2026-02-25 14:58:41 [INFO] Epoch [7/100]  Train: loss=0.2752 acc=91.13%  |  Val: loss=0.1825 acc=94.23%  |  LR: 0.009989  Time: 00:03:02
+2026-02-25 14:58:42 [INFO]   -> Best model saved (acc=94.23%)
+2026-02-25 15:01:44 [INFO] Epoch [8/100]  Train: loss=0.1943 acc=93.83%  |  Val: loss=0.2189 acc=93.50%  |  LR: 0.009975  Time: 00:03:02
+2026-02-25 15:04:26 [INFO] Epoch [9/100]  Train: loss=0.1590 acc=94.80%  |  Val: loss=0.0975 acc=96.97%  |  LR: 0.009956  Time: 00:02:41
+2026-02-25 15:04:26 [INFO]   -> Best model saved (acc=96.97%)
+2026-02-25 15:07:27 [INFO] Epoch [10/100]  Train: loss=0.1338 acc=95.68%  |  Val: loss=0.1109 acc=96.42%  |  LR: 0.009932  Time: 00:03:00
+2026-02-25 15:10:33 [INFO] Epoch [11/100]  Train: loss=0.1224 acc=95.89%  |  Val: loss=0.0638 acc=97.73%  |  LR: 0.009902  Time: 00:03:05
+2026-02-25 15:10:34 [INFO]   -> Best model saved (acc=97.73%)
+2026-02-25 15:13:45 [INFO] Epoch [12/100]  Train: loss=0.0943 acc=97.03%  |  Val: loss=0.0707 acc=97.89%  |  LR: 0.009867  Time: 00:03:10
+2026-02-25 15:13:45 [INFO]   -> Best model saved (acc=97.89%)
+2026-02-25 15:16:58 [INFO] Epoch [13/100]  Train: loss=0.0886 acc=97.20%  |  Val: loss=0.0598 acc=98.02%  |  LR: 0.009826  Time: 00:03:12
+2026-02-25 15:16:58 [INFO]   -> Best model saved (acc=98.02%)
+2026-02-25 15:20:08 [INFO] Epoch [14/100]  Train: loss=0.0802 acc=97.34%  |  Val: loss=0.0487 acc=98.35%  |  LR: 0.009780  Time: 00:03:09
+2026-02-25 15:20:08 [INFO]   -> Best model saved (acc=98.35%)
+2026-02-25 15:23:17 [INFO] Epoch [15/100]  Train: loss=0.0764 acc=97.49%  |  Val: loss=0.0360 acc=98.86%  |  LR: 0.009729  Time: 00:03:08
+2026-02-25 15:23:17 [INFO]   -> Best model saved (acc=98.86%)
+2026-02-25 15:26:33 [INFO] Epoch [16/100]  Train: loss=0.0571 acc=97.94%  |  Val: loss=0.0342 acc=98.94%  |  LR: 0.009673  Time: 00:03:15
+2026-02-25 15:26:34 [INFO]   -> Best model saved (acc=98.94%)
+2026-02-25 15:30:01 [INFO] Epoch [17/100]  Train: loss=0.0536 acc=98.10%  |  Val: loss=0.0306 acc=99.08%  |  LR: 0.009611  Time: 00:03:26
+2026-02-25 15:30:01 [INFO]   -> Best model saved (acc=99.08%)
+2026-02-25 15:33:39 [INFO] Epoch [18/100]  Train: loss=0.0499 acc=98.35%  |  Val: loss=0.0231 acc=99.11%  |  LR: 0.009545  Time: 00:03:37
+2026-02-25 15:33:40 [INFO]   -> Best model saved (acc=99.11%)
+2026-02-25 15:37:00 [INFO] Epoch [19/100]  Train: loss=0.0386 acc=98.49%  |  Val: loss=0.0253 acc=99.13%  |  LR: 0.009474  Time: 00:03:19
+2026-02-25 15:37:00 [INFO]   -> Best model saved (acc=99.13%)
+2026-02-25 15:40:32 [INFO] Epoch [20/100]  Train: loss=0.0440 acc=98.43%  |  Val: loss=0.0320 acc=99.02%  |  LR: 0.009397  Time: 00:03:31
+2026-02-25 15:43:54 [INFO] Epoch [21/100]  Train: loss=0.0405 acc=98.52%  |  Val: loss=0.0210 acc=99.24%  |  LR: 0.009316  Time: 00:03:21
+2026-02-25 15:43:55 [INFO]   -> Best model saved (acc=99.24%)
+2026-02-25 15:46:58 [INFO] Epoch [22/100]  Train: loss=0.0336 acc=98.79%  |  Val: loss=0.0166 acc=99.30%  |  LR: 0.009230  Time: 00:03:02
+2026-02-25 15:46:58 [INFO]   -> Best model saved (acc=99.30%)
+2026-02-25 15:50:36 [INFO] Epoch [23/100]  Train: loss=0.0257 acc=99.07%  |  Val: loss=0.0166 acc=99.38%  |  LR: 0.009140  Time: 00:03:37
+2026-02-25 15:50:36 [INFO]   -> Best model saved (acc=99.38%)
+2026-02-25 15:55:50 [INFO] Epoch [24/100]  Train: loss=0.0226 acc=99.02%  |  Val: loss=0.0182 acc=99.30%  |  LR: 0.009045  Time: 00:05:13
+2026-02-25 16:00:36 [INFO] Epoch [25/100]  Train: loss=0.0237 acc=99.04%  |  Val: loss=0.0168 acc=99.35%  |  LR: 0.008946  Time: 00:04:45
+2026-02-26 03:42:38 [INFO] ============================================================
+2026-02-26 03:42:38 [INFO] VOC Classification Training Configuration:
+2026-02-26 03:42:38 [INFO]   batch_size: 32
+2026-02-26 03:42:38 [INFO]   crop_padding: 0.1
+2026-02-26 03:42:38 [INFO]   data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/voc/VOCdevkit
+2026-02-26 03:42:38 [INFO]   device: mps
+2026-02-26 03:42:38 [INFO]   epochs: 100
+2026-02-26 03:42:38 [INFO]   input_size: 224
+2026-02-26 03:42:38 [INFO]   loss_type: cross_entropy
+2026-02-26 03:42:38 [INFO]   lr: 0.01
+2026-02-26 03:42:38 [INFO]   min_crop_size: 32
+2026-02-26 03:42:38 [INFO]   min_lr: 1e-06
+2026-02-26 03:42:38 [INFO]   model_name: resnet18
+2026-02-26 03:42:38 [INFO]   momentum: 0.9
+2026-02-26 03:42:38 [INFO]   num_classes: 21
+2026-02-26 03:42:38 [INFO]   num_workers: 4
+2026-02-26 03:42:38 [INFO]   output_dir: ../../../outputs/archived/voc_classification
+2026-02-26 03:42:38 [INFO]   pretrained: True
+2026-02-26 03:42:38 [INFO]   resume: /Users/admin/开发/Workspace/outputs/archived/voc_classification/last.pt
+2026-02-26 03:42:38 [INFO]   save_best: True
+2026-02-26 03:42:38 [INFO]   scheduler: cosine
+2026-02-26 03:42:38 [INFO]   seed: 42
+2026-02-26 03:42:38 [INFO]   voc_year: 2007
+2026-02-26 03:42:38 [INFO]   warmup_epochs: 5
+2026-02-26 03:42:38 [INFO]   weight_decay: 0.0001
+2026-02-26 03:42:38 [INFO]   device (actual): mps
+2026-02-26 03:42:38 [INFO] ============================================================
+2026-02-26 03:42:38 [INFO] Building datasets...
+2026-02-26 03:42:39 [INFO]   Train samples: 12608
+2026-02-26 03:42:39 [INFO]   Val   samples: 6307
+2026-02-26 03:42:39 [INFO] Building model: resnet18...
+2026-02-26 03:42:39 [INFO]   Total parameters: 11,187,285
+2026-02-26 03:42:39 [INFO] Resumed from epoch 25, best_acc=99.38%
+2026-02-26 03:42:39 [INFO] Start training for 100 epochs...
+2026-02-26 03:42:39 [INFO] 
+2026-02-26 03:45:22 [INFO] Epoch [26/100]  Train: loss=0.0243 acc=98.94%  |  Val: loss=0.0174 acc=99.18%  |  LR: 0.004000  Time: 00:02:43
+2026-02-26 03:48:13 [INFO] Epoch [27/100]  Train: loss=0.0200 acc=99.15%  |  Val: loss=0.0119 acc=99.41%  |  LR: 0.006000  Time: 00:02:50
+2026-02-26 03:48:14 [INFO]   -> Best model saved (acc=99.41%)
+2026-02-26 03:51:11 [INFO] Epoch [28/100]  Train: loss=0.0169 acc=99.17%  |  Val: loss=0.0120 acc=99.43%  |  LR: 0.008000  Time: 00:02:56
+2026-02-26 03:51:11 [INFO]   -> Best model saved (acc=99.43%)
+2026-02-26 03:54:07 [INFO] Epoch [29/100]  Train: loss=0.0182 acc=99.17%  |  Val: loss=0.0130 acc=99.41%  |  LR: 0.010000  Time: 00:02:55
+2026-02-26 03:56:59 [INFO] Epoch [30/100]  Train: loss=0.0181 acc=99.10%  |  Val: loss=0.0129 acc=99.41%  |  LR: 0.010000  Time: 00:02:51
+2026-02-26 03:59:47 [INFO] Epoch [31/100]  Train: loss=0.0170 acc=99.18%  |  Val: loss=0.0128 acc=99.41%  |  LR: 0.009997  Time: 00:02:47
+2026-02-26 04:02:38 [INFO] Epoch [32/100]  Train: loss=0.0182 acc=99.18%  |  Val: loss=0.0125 acc=99.43%  |  LR: 0.009989  Time: 00:02:50
+2026-02-26 04:05:29 [INFO] Epoch [33/100]  Train: loss=0.0194 acc=99.06%  |  Val: loss=0.0131 acc=99.45%  |  LR: 0.009975  Time: 00:02:50
+2026-02-26 04:05:29 [INFO]   -> Best model saved (acc=99.45%)
+2026-02-26 04:08:20 [INFO] Epoch [34/100]  Train: loss=0.0190 acc=99.17%  |  Val: loss=0.0127 acc=99.37%  |  LR: 0.009956  Time: 00:02:50
+2026-02-26 04:11:13 [INFO] Epoch [35/100]  Train: loss=0.0164 acc=99.23%  |  Val: loss=0.0130 acc=99.43%  |  LR: 0.009932  Time: 00:02:52
+2026-02-26 04:14:07 [INFO] Epoch [36/100]  Train: loss=0.0158 acc=99.21%  |  Val: loss=0.0125 acc=99.40%  |  LR: 0.009902  Time: 00:02:53
+2026-02-26 04:17:06 [INFO] Epoch [37/100]  Train: loss=0.0163 acc=99.21%  |  Val: loss=0.0122 acc=99.43%  |  LR: 0.009867  Time: 00:02:58
+2026-02-26 04:20:14 [INFO] Epoch [38/100]  Train: loss=0.0162 acc=99.27%  |  Val: loss=0.0117 acc=99.41%  |  LR: 0.009826  Time: 00:03:07
+2026-02-26 04:23:16 [INFO] Epoch [39/100]  Train: loss=0.0154 acc=99.21%  |  Val: loss=0.0119 acc=99.41%  |  LR: 0.009780  Time: 00:03:02
+2026-02-26 04:26:24 [INFO] Epoch [40/100]  Train: loss=0.0154 acc=99.21%  |  Val: loss=0.0126 acc=99.43%  |  LR: 0.009729  Time: 00:03:06
+2026-02-26 04:29:29 [INFO] Epoch [41/100]  Train: loss=0.0158 acc=99.24%  |  Val: loss=0.0114 acc=99.43%  |  LR: 0.009673  Time: 00:03:04
+2026-02-26 04:32:35 [INFO] Epoch [42/100]  Train: loss=0.0149 acc=99.25%  |  Val: loss=0.0113 acc=99.45%  |  LR: 0.009611  Time: 00:03:05
+2026-02-26 04:35:41 [INFO] Epoch [43/100]  Train: loss=0.0149 acc=99.27%  |  Val: loss=0.0115 acc=99.45%  |  LR: 0.009545  Time: 00:03:05
+2026-02-26 04:38:47 [INFO] Epoch [44/100]  Train: loss=0.0141 acc=99.27%  |  Val: loss=0.0112 acc=99.37%  |  LR: 0.009474  Time: 00:03:05
+2026-02-26 04:41:52 [INFO] Epoch [45/100]  Train: loss=0.0144 acc=99.29%  |  Val: loss=0.0127 acc=99.45%  |  LR: 0.009397  Time: 00:03:04
+2026-02-26 04:44:58 [INFO] Epoch [46/100]  Train: loss=0.0147 acc=99.25%  |  Val: loss=0.0113 acc=99.45%  |  LR: 0.009316  Time: 00:03:05
+2026-02-26 04:48:04 [INFO] Epoch [47/100]  Train: loss=0.0143 acc=99.29%  |  Val: loss=0.0110 acc=99.46%  |  LR: 0.009230  Time: 00:03:04
+2026-02-26 04:48:05 [INFO]   -> Best model saved (acc=99.46%)
+2026-02-26 04:51:12 [INFO] Epoch [48/100]  Train: loss=0.0144 acc=99.26%  |  Val: loss=0.0110 acc=99.46%  |  LR: 0.009140  Time: 00:03:05
+2026-02-26 04:54:19 [INFO] Epoch [49/100]  Train: loss=0.0140 acc=99.24%  |  Val: loss=0.0114 acc=99.45%  |  LR: 0.009045  Time: 00:03:06
+2026-02-26 04:57:26 [INFO] Epoch [50/100]  Train: loss=0.0142 acc=99.27%  |  Val: loss=0.0115 acc=99.41%  |  LR: 0.008946  Time: 00:03:06
+2026-02-26 06:36:15 [INFO] ============================================================
+2026-02-26 06:36:15 [INFO] VOC Classification Training Configuration:
+2026-02-26 06:36:15 [INFO]   batch_size: 32
+2026-02-26 06:36:15 [INFO]   crop_padding: 0.1
+2026-02-26 06:36:15 [INFO]   data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/voc/VOCdevkit
+2026-02-26 06:36:15 [INFO]   device: mps
+2026-02-26 06:36:15 [INFO]   epochs: 100
+2026-02-26 06:36:15 [INFO]   input_size: 224
+2026-02-26 06:36:15 [INFO]   loss_type: cross_entropy
+2026-02-26 06:36:15 [INFO]   lr: 0.01
+2026-02-26 06:36:15 [INFO]   min_crop_size: 32
+2026-02-26 06:36:15 [INFO]   min_lr: 1e-06
+2026-02-26 06:36:15 [INFO]   model_name: resnet18
+2026-02-26 06:36:15 [INFO]   momentum: 0.9
+2026-02-26 06:36:15 [INFO]   num_classes: 21
+2026-02-26 06:36:15 [INFO]   num_workers: 4
+2026-02-26 06:36:15 [INFO]   output_dir: ../../../outputs/archived/voc_classification
+2026-02-26 06:36:15 [INFO]   pretrained: True
+2026-02-26 06:36:15 [INFO]   resume: ./runs/voc_classification/last.pt
+2026-02-26 06:36:15 [INFO]   save_best: True
+2026-02-26 06:36:15 [INFO]   scheduler: cosine
+2026-02-26 06:36:15 [INFO]   seed: 42
+2026-02-26 06:36:15 [INFO]   voc_year: 2007
+2026-02-26 06:36:15 [INFO]   warmup_epochs: 5
+2026-02-26 06:36:15 [INFO]   weight_decay: 0.0001
+2026-02-26 06:36:15 [INFO]   device (actual): mps
+2026-02-26 06:36:15 [INFO] ============================================================
+2026-02-26 06:36:15 [INFO] Building datasets...
+2026-02-26 06:36:16 [INFO]   Train samples: 12608
+2026-02-26 06:36:16 [INFO]   Val   samples: 6307
+2026-02-26 06:36:16 [INFO] Building model: resnet18...
+2026-02-26 06:36:16 [INFO]   Total parameters: 11,187,285
+2026-02-26 06:36:29 [INFO] ============================================================
+2026-02-26 06:36:29 [INFO] VOC Classification Training Configuration:
+2026-02-26 06:36:29 [INFO]   batch_size: 32
+2026-02-26 06:36:29 [INFO]   crop_padding: 0.1
+2026-02-26 06:36:29 [INFO]   data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/voc/VOCdevkit
+2026-02-26 06:36:29 [INFO]   device: mps
+2026-02-26 06:36:29 [INFO]   epochs: 100
+2026-02-26 06:36:29 [INFO]   input_size: 224
+2026-02-26 06:36:29 [INFO]   loss_type: cross_entropy
+2026-02-26 06:36:29 [INFO]   lr: 0.01
+2026-02-26 06:36:29 [INFO]   min_crop_size: 32
+2026-02-26 06:36:29 [INFO]   min_lr: 1e-06
+2026-02-26 06:36:29 [INFO]   model_name: resnet18
+2026-02-26 06:36:29 [INFO]   momentum: 0.9
+2026-02-26 06:36:29 [INFO]   num_classes: 21
+2026-02-26 06:36:29 [INFO]   num_workers: 4
+2026-02-26 06:36:29 [INFO]   output_dir: ../../../outputs/archived/voc_classification
+2026-02-26 06:36:29 [INFO]   pretrained: True
+2026-02-26 06:36:29 [INFO]   resume: /Users/admin/开发/Workspace/outputs/archived/voc_classification/last.pt
+2026-02-26 06:36:29 [INFO]   save_best: True
+2026-02-26 06:36:29 [INFO]   scheduler: cosine
+2026-02-26 06:36:29 [INFO]   seed: 42
+2026-02-26 06:36:29 [INFO]   voc_year: 2007
+2026-02-26 06:36:29 [INFO]   warmup_epochs: 5
+2026-02-26 06:36:29 [INFO]   weight_decay: 0.0001
+2026-02-26 06:36:29 [INFO]   device (actual): mps
+2026-02-26 06:36:29 [INFO] ============================================================
+2026-02-26 06:36:29 [INFO] Building datasets...
+2026-02-26 06:36:30 [INFO]   Train samples: 12608
+2026-02-26 06:36:30 [INFO]   Val   samples: 6307
+2026-02-26 06:36:30 [INFO] Building model: resnet18...
+2026-02-26 06:36:30 [INFO]   Total parameters: 11,187,285
+2026-02-26 06:36:30 [INFO] Resumed from epoch 50, best_acc=99.46%
+2026-02-26 06:36:30 [INFO] Start training for 100 epochs...
+2026-02-26 06:36:30 [INFO] 
+2026-02-26 06:39:11 [INFO] Epoch [51/100]  Train: loss=0.0137 acc=99.25%  |  Val: loss=0.0114 acc=99.45%  |  LR: 0.004000  Time: 00:02:40
+2026-02-26 06:41:54 [INFO] Epoch [52/100]  Train: loss=0.0132 acc=99.29%  |  Val: loss=0.0109 acc=99.45%  |  LR: 0.006000  Time: 00:02:42

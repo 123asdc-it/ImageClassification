@@ -1,0 +1,21 @@
+# 两阶段流水线配置：先检测 → 再分类
+
+# 权重路径（项目根目录 weights/）
+det_weights: "weights/detection/best_det.pt"
+cls_weights: "weights/voc_classification/best.pt"  # VOC 分类器（21类）
+
+# 检测参数
+det_input_size: 300
+conf_threshold: 0.5       # 提高到 0.5，过滤低置信度检测
+nms_threshold: 0.5        # 提高到 0.5，减少重复框
+
+# 分类参数
+cls_input_size: 32
+
+# 裁剪参数
+crop_padding: 0.15        # bbox 外扩 15% 作为上下文
+min_crop_size: 30         # 提高到 30px，过滤更小的检测框
+
+# 输出（测试结果保存到 outputs/pipeline/）
+output_dir: "outputs/pipeline"
+device: "cuda"

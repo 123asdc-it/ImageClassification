@@ -1,0 +1,37 @@
+# FER2013 情绪分类配置（ResNet18）
+
+# 数据
+data_root: "/Users/admin/开发/Workspace/ImageClassification/emotion_recognition/data/FER-2013"
+num_classes: 7
+input_size: 48
+class_names: ["angry", "disgust", "fear", "happy", "neutral", "sad", "surprise"]
+
+# 训练
+epochs: 60
+batch_size: 128
+num_workers: 0
+lr: 0.001
+momentum: 0.9
+weight_decay: 1.0e-4
+optimizer: "adam"
+
+# 损失函数（label_smoothing 缓解类别不平衡）
+loss_type: "label_smoothing"
+
+# 学习率调度
+scheduler: "cosine"
+warmup_epochs: 3
+min_lr: 1.0e-6
+
+# 模型
+model_name: "resnet18"
+pretrained: true
+in_channels: 1          # FER2013 为灰度图
+
+# 保存（权重写入 weights/emotion_recognition/）
+output_dir: "/Users/admin/开发/Workspace/ImageClassification/emotion_recognition/weights"
+save_best: true
+
+# 其他
+seed: 42
+device: "mps"

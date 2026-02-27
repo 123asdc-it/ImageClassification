@@ -1,0 +1,39 @@
+# VOC 分类配置（从检测框裁剪）
+
+# 数据
+data_root: "/Users/admin/开发/Workspace/ImageClassification/voc_two_stage/data/VOCdevkit"
+voc_year: "2007"
+num_classes: 21          # VOC 20类 + 背景
+input_size: 224          # 使用 224 而不是 32
+
+# 训练
+epochs: 100
+batch_size: 32
+num_workers: 4
+lr: 0.01
+momentum: 0.9
+weight_decay: 1.0e-4
+
+# 损失函数
+loss_type: "cross_entropy"
+
+# 学习率调度
+scheduler: "cosine"
+warmup_epochs: 5
+min_lr: 1.0e-6
+
+# 保存（权重写入 weights/voc_classification/）
+output_dir: "/Users/admin/开发/Workspace/ImageClassification/voc_two_stage/weights/voc_classification"
+save_best: true
+
+# 模型
+model_name: "resnet18"
+pretrained: true         # 使用 ImageNet 预训练
+
+# 裁剪参数
+min_crop_size: 32
+crop_padding: 0.1
+
+# 其他
+seed: 42
+device: "cuda"

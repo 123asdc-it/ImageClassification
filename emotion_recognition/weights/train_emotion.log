@@ -1,0 +1,215 @@
+2026-02-26 11:14:16 [INFO] ============================================================
+2026-02-26 11:14:16 [INFO] FER2013 Emotion Classification
+2026-02-26 11:14:16 [INFO]   batch_size: 128
+2026-02-26 11:14:16 [INFO]   class_names: ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+2026-02-26 11:14:16 [INFO]   data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/fer2013/FER-2013
+2026-02-26 11:14:16 [INFO]   device: mps
+2026-02-26 11:14:16 [INFO]   epochs: 60
+2026-02-26 11:14:16 [INFO]   in_channels: 1
+2026-02-26 11:14:16 [INFO]   input_size: 48
+2026-02-26 11:14:16 [INFO]   loss_type: label_smoothing
+2026-02-26 11:14:16 [INFO]   lr: 0.001
+2026-02-26 11:14:16 [INFO]   min_lr: 1e-06
+2026-02-26 11:14:16 [INFO]   model_name: resnet18
+2026-02-26 11:14:16 [INFO]   momentum: 0.9
+2026-02-26 11:14:16 [INFO]   num_classes: 7
+2026-02-26 11:14:16 [INFO]   num_workers: 4
+2026-02-26 11:14:16 [INFO]   optimizer: adam
+2026-02-26 11:14:16 [INFO]   output_dir: /Users/admin/开发/Workspace/ImageClassification/weights/emotion_recognition
+2026-02-26 11:14:16 [INFO]   pretrained: True
+2026-02-26 11:14:16 [INFO]   save_best: True
+2026-02-26 11:14:16 [INFO]   scheduler: cosine
+2026-02-26 11:14:16 [INFO]   seed: 42
+2026-02-26 11:14:16 [INFO]   warmup_epochs: 3
+2026-02-26 11:14:16 [INFO]   weight_decay: 0.0001
+2026-02-26 11:14:16 [INFO]   device (actual): mps
+2026-02-26 11:14:16 [INFO] ============================================================
+2026-02-26 11:14:16 [INFO] Building datasets...
+2026-02-26 11:14:16 [INFO]   Train: 28709 samples
+2026-02-26 11:14:16 [INFO]   Val:   7178 samples
+2026-02-26 11:14:16 [INFO]   Classes: ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+2026-02-26 11:15:42 [INFO] ============================================================
+2026-02-26 11:15:42 [INFO] FER2013 Emotion Classification
+2026-02-26 11:15:42 [INFO]   batch_size: 128
+2026-02-26 11:15:42 [INFO]   class_names: ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+2026-02-26 11:15:42 [INFO]   data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/fer2013/FER-2013
+2026-02-26 11:15:42 [INFO]   device: mps
+2026-02-26 11:15:42 [INFO]   epochs: 60
+2026-02-26 11:15:42 [INFO]   in_channels: 1
+2026-02-26 11:15:42 [INFO]   input_size: 48
+2026-02-26 11:15:42 [INFO]   loss_type: label_smoothing
+2026-02-26 11:15:42 [INFO]   lr: 0.001
+2026-02-26 11:15:42 [INFO]   min_lr: 1e-06
+2026-02-26 11:15:42 [INFO]   model_name: resnet18
+2026-02-26 11:15:42 [INFO]   momentum: 0.9
+2026-02-26 11:15:42 [INFO]   num_classes: 7
+2026-02-26 11:15:42 [INFO]   num_workers: 4
+2026-02-26 11:15:42 [INFO]   optimizer: adam
+2026-02-26 11:15:42 [INFO]   output_dir: /Users/admin/开发/Workspace/ImageClassification/weights/emotion_recognition
+2026-02-26 11:15:42 [INFO]   pretrained: True
+2026-02-26 11:15:42 [INFO]   save_best: True
+2026-02-26 11:15:42 [INFO]   scheduler: cosine
+2026-02-26 11:15:42 [INFO]   seed: 42
+2026-02-26 11:15:42 [INFO]   warmup_epochs: 3
+2026-02-26 11:15:42 [INFO]   weight_decay: 0.0001
+2026-02-26 11:15:42 [INFO]   device (actual): mps
+2026-02-26 11:15:42 [INFO] ============================================================
+2026-02-26 11:15:42 [INFO] Building datasets...
+2026-02-26 11:15:42 [INFO]   Train: 28709 samples
+2026-02-26 11:15:42 [INFO]   Val:   7178 samples
+2026-02-26 11:15:42 [INFO]   Classes: ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+2026-02-26 11:15:43 [INFO] Model: resnet18, params: 11,173,831
+2026-02-26 11:15:43 [INFO] Start training for 60 epochs...
+
+2026-02-26 11:16:52 [INFO] Epoch [1/60]  Train: loss=1.5583 acc=44.45%  |  Val: loss=1.4141 acc=52.23%  |  LR: 0.000667  Time: 00:01:09
+2026-02-26 11:16:52 [INFO]   -> Best model saved (acc=52.23%)
+2026-02-26 11:17:59 [INFO] Epoch [2/60]  Train: loss=1.3824 acc=53.54%  |  Val: loss=1.3205 acc=56.78%  |  LR: 0.001000  Time: 00:01:07
+2026-02-26 11:18:00 [INFO]   -> Best model saved (acc=56.78%)
+2026-02-26 11:19:07 [INFO] Epoch [3/60]  Train: loss=1.3463 acc=55.26%  |  Val: loss=1.3066 acc=57.24%  |  LR: 0.001000  Time: 00:01:06
+2026-02-26 11:19:07 [INFO]   -> Best model saved (acc=57.24%)
+2026-02-26 11:20:14 [INFO] Epoch [4/60]  Train: loss=1.3017 acc=57.97%  |  Val: loss=1.2865 acc=58.16%  |  LR: 0.000999  Time: 00:01:07
+2026-02-26 11:20:14 [INFO]   -> Best model saved (acc=58.16%)
+2026-02-26 11:21:21 [INFO] Epoch [5/60]  Train: loss=1.2829 acc=58.79%  |  Val: loss=1.2949 acc=58.21%  |  LR: 0.000997  Time: 00:01:06
+2026-02-26 11:21:21 [INFO]   -> Best model saved (acc=58.21%)
+2026-02-26 11:22:29 [INFO] Epoch [6/60]  Train: loss=1.2585 acc=59.88%  |  Val: loss=1.2501 acc=60.59%  |  LR: 0.000993  Time: 00:01:07
+2026-02-26 11:22:29 [INFO]   -> Best model saved (acc=60.59%)
+2026-02-26 11:23:36 [INFO] Epoch [7/60]  Train: loss=1.2412 acc=60.76%  |  Val: loss=1.2728 acc=59.11%  |  LR: 0.000988  Time: 00:01:06
+2026-02-26 11:24:44 [INFO] Epoch [8/60]  Train: loss=1.2320 acc=61.62%  |  Val: loss=1.2562 acc=60.38%  |  LR: 0.000981  Time: 00:01:07
+2026-02-26 11:25:52 [INFO] Epoch [9/60]  Train: loss=1.2177 acc=61.96%  |  Val: loss=1.2512 acc=61.49%  |  LR: 0.000973  Time: 00:01:07
+2026-02-26 11:25:52 [INFO]   -> Best model saved (acc=61.49%)
+2026-02-26 11:27:00 [INFO] Epoch [10/60]  Train: loss=1.2047 acc=62.70%  |  Val: loss=1.3042 acc=59.50%  |  LR: 0.000963  Time: 00:01:07
+2026-02-26 11:28:07 [INFO] Epoch [11/60]  Train: loss=1.1940 acc=63.35%  |  Val: loss=1.2324 acc=61.33%  |  LR: 0.000952  Time: 00:01:07
+2026-02-26 11:29:15 [INFO] Epoch [12/60]  Train: loss=1.1823 acc=63.63%  |  Val: loss=1.2394 acc=61.95%  |  LR: 0.000940  Time: 00:01:06
+2026-02-26 11:29:15 [INFO]   -> Best model saved (acc=61.95%)
+2026-02-26 11:30:23 [INFO] Epoch [13/60]  Train: loss=1.1791 acc=64.14%  |  Val: loss=1.2369 acc=61.65%  |  LR: 0.000926  Time: 00:01:07
+2026-02-26 11:31:30 [INFO] Epoch [14/60]  Train: loss=1.1664 acc=64.99%  |  Val: loss=1.2188 acc=61.21%  |  LR: 0.000911  Time: 00:01:07
+2026-02-26 11:32:38 [INFO] Epoch [15/60]  Train: loss=1.1560 acc=65.43%  |  Val: loss=1.2402 acc=62.33%  |  LR: 0.000895  Time: 00:01:07
+2026-02-26 11:32:38 [INFO]   -> Best model saved (acc=62.33%)
+2026-02-26 11:33:45 [INFO] Epoch [16/60]  Train: loss=1.1447 acc=66.17%  |  Val: loss=1.2224 acc=62.18%  |  LR: 0.000877  Time: 00:01:07
+2026-02-26 11:34:53 [INFO] Epoch [17/60]  Train: loss=1.1388 acc=66.09%  |  Val: loss=1.2695 acc=60.88%  |  LR: 0.000858  Time: 00:01:07
+2026-02-26 11:36:00 [INFO] Epoch [18/60]  Train: loss=1.1275 acc=66.85%  |  Val: loss=1.2515 acc=61.77%  |  LR: 0.000839  Time: 00:01:07
+2026-02-26 11:37:07 [INFO] Epoch [19/60]  Train: loss=1.1146 acc=67.24%  |  Val: loss=1.1938 acc=63.69%  |  LR: 0.000818  Time: 00:01:06
+2026-02-26 11:37:07 [INFO]   -> Best model saved (acc=63.69%)
+2026-02-26 11:38:14 [INFO] Epoch [20/60]  Train: loss=1.1119 acc=67.78%  |  Val: loss=1.1986 acc=63.00%  |  LR: 0.000796  Time: 00:01:06
+2026-02-26 11:39:20 [INFO] Epoch [21/60]  Train: loss=1.0983 acc=68.36%  |  Val: loss=1.2035 acc=63.96%  |  LR: 0.000773  Time: 00:01:06
+2026-02-26 11:39:20 [INFO]   -> Best model saved (acc=63.96%)
+2026-02-26 11:40:27 [INFO] Epoch [22/60]  Train: loss=1.0914 acc=68.61%  |  Val: loss=1.1813 acc=64.67%  |  LR: 0.000750  Time: 00:01:06
+2026-02-26 11:40:27 [INFO]   -> Best model saved (acc=64.67%)
+2026-02-26 11:41:33 [INFO] Epoch [23/60]  Train: loss=1.0731 acc=69.88%  |  Val: loss=1.2318 acc=63.39%  |  LR: 0.000726  Time: 00:01:06
+2026-02-26 11:42:40 [INFO] Epoch [24/60]  Train: loss=1.0631 acc=69.91%  |  Val: loss=1.1932 acc=64.38%  |  LR: 0.000701  Time: 00:01:06
+2026-02-26 11:43:46 [INFO] Epoch [25/60]  Train: loss=1.0559 acc=70.37%  |  Val: loss=1.1904 acc=65.46%  |  LR: 0.000675  Time: 00:01:05
+2026-02-26 11:43:46 [INFO]   -> Best model saved (acc=65.46%)
+2026-02-26 16:23:01 [INFO] ============================================================
+2026-02-26 16:23:01 [INFO] FER2013 Emotion Classification
+2026-02-26 16:23:01 [INFO]   batch_size: 128
+2026-02-26 16:23:01 [INFO]   class_names: ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+2026-02-26 16:23:01 [INFO]   data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/fer2013/FER-2013
+2026-02-26 16:23:01 [INFO]   device: mps
+2026-02-26 16:23:01 [INFO]   epochs: 60
+2026-02-26 16:23:01 [INFO]   in_channels: 1
+2026-02-26 16:23:01 [INFO]   input_size: 48
+2026-02-26 16:23:01 [INFO]   loss_type: label_smoothing
+2026-02-26 16:23:01 [INFO]   lr: 0.001
+2026-02-26 16:23:01 [INFO]   min_lr: 1e-06
+2026-02-26 16:23:01 [INFO]   model_name: resnet18
+2026-02-26 16:23:01 [INFO]   momentum: 0.9
+2026-02-26 16:23:01 [INFO]   num_classes: 7
+2026-02-26 16:23:01 [INFO]   num_workers: 0
+2026-02-26 16:23:01 [INFO]   optimizer: adam
+2026-02-26 16:23:01 [INFO]   output_dir: /Users/admin/开发/Workspace/ImageClassification/weights/emotion_recognition
+2026-02-26 16:23:01 [INFO]   pretrained: True
+2026-02-26 16:23:01 [INFO]   save_best: True
+2026-02-26 16:23:01 [INFO]   scheduler: cosine
+2026-02-26 16:23:01 [INFO]   seed: 42
+2026-02-26 16:23:01 [INFO]   warmup_epochs: 3
+2026-02-26 16:23:01 [INFO]   weight_decay: 0.0001
+2026-02-26 16:23:01 [INFO]   device (actual): mps
+2026-02-26 16:23:01 [INFO] ============================================================
+2026-02-26 16:23:01 [INFO] Building datasets...
+2026-02-26 16:23:01 [INFO]   Train: 28709 samples
+2026-02-26 16:23:01 [INFO]   Val:   7178 samples
+2026-02-26 16:23:01 [INFO]   Classes: ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+2026-02-26 16:23:01 [INFO] Model: resnet18, params: 11,173,831
+2026-02-26 16:23:01 [INFO] Start training for 60 epochs...
+
+2026-02-26 16:23:20 [INFO] ============================================================
+2026-02-26 16:23:20 [INFO] FER2013 Emotion Classification
+2026-02-26 16:23:20 [INFO]   batch_size: 128
+2026-02-26 16:23:20 [INFO]   class_names: ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+2026-02-26 16:23:20 [INFO]   data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/fer2013/FER-2013
+2026-02-26 16:23:20 [INFO]   device: mps
+2026-02-26 16:23:20 [INFO]   epochs: 60
+2026-02-26 16:23:20 [INFO]   in_channels: 1
+2026-02-26 16:23:20 [INFO]   input_size: 48
+2026-02-26 16:23:20 [INFO]   loss_type: label_smoothing
+2026-02-26 16:23:20 [INFO]   lr: 0.001
+2026-02-26 16:23:20 [INFO]   min_lr: 1e-06
+2026-02-26 16:23:20 [INFO]   model_name: resnet18
+2026-02-26 16:23:20 [INFO]   momentum: 0.9
+2026-02-26 16:23:20 [INFO]   num_classes: 7
+2026-02-26 16:23:20 [INFO]   num_workers: 0
+2026-02-26 16:23:20 [INFO]   optimizer: adam
+2026-02-26 16:23:20 [INFO]   output_dir: /Users/admin/开发/Workspace/ImageClassification/weights/emotion_recognition
+2026-02-26 16:23:20 [INFO]   pretrained: True
+2026-02-26 16:23:20 [INFO]   resume: /Users/admin/开发/Workspace/ImageClassification/weights/emotion_recognition/last.pt
+2026-02-26 16:23:20 [INFO]   save_best: True
+2026-02-26 16:23:20 [INFO]   scheduler: cosine
+2026-02-26 16:23:20 [INFO]   seed: 42
+2026-02-26 16:23:20 [INFO]   warmup_epochs: 3
+2026-02-26 16:23:20 [INFO]   weight_decay: 0.0001
+2026-02-26 16:23:20 [INFO]   device (actual): mps
+2026-02-26 16:23:20 [INFO] ============================================================
+2026-02-26 16:23:20 [INFO] Building datasets...
+2026-02-26 16:23:20 [INFO]   Train: 28709 samples
+2026-02-26 16:23:20 [INFO]   Val:   7178 samples
+2026-02-26 16:23:20 [INFO]   Classes: ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+2026-02-26 16:23:20 [INFO] Model: resnet18, params: 11,173,831
+2026-02-26 16:23:20 [INFO] Resumed from epoch 25, best_acc=65.46%
+2026-02-26 16:23:20 [INFO] Start training for 60 epochs...
+
+2026-02-26 16:23:52 [INFO] Epoch [26/60]  Train: loss=1.0418 acc=71.19%  |  Val: loss=1.1996 acc=64.93%  |  LR: 0.000667  Time: 00:00:31
+2026-02-26 16:24:24 [INFO] Epoch [27/60]  Train: loss=1.0298 acc=71.77%  |  Val: loss=1.2033 acc=64.88%  |  LR: 0.001000  Time: 00:00:31
+2026-02-26 16:24:56 [INFO] Epoch [28/60]  Train: loss=1.0676 acc=70.01%  |  Val: loss=1.2210 acc=63.86%  |  LR: 0.001000  Time: 00:00:31
+2026-02-26 16:25:28 [INFO] Epoch [29/60]  Train: loss=1.0704 acc=69.75%  |  Val: loss=1.2211 acc=63.30%  |  LR: 0.000999  Time: 00:00:31
+2026-02-26 16:26:00 [INFO] Epoch [30/60]  Train: loss=1.0597 acc=70.39%  |  Val: loss=1.2207 acc=63.37%  |  LR: 0.000997  Time: 00:00:31
+2026-02-26 16:26:32 [INFO] Epoch [31/60]  Train: loss=1.0588 acc=70.44%  |  Val: loss=1.2115 acc=63.96%  |  LR: 0.000993  Time: 00:00:31
+2026-02-26 16:27:04 [INFO] Epoch [32/60]  Train: loss=1.0533 acc=70.66%  |  Val: loss=1.2074 acc=63.95%  |  LR: 0.000988  Time: 00:00:31
+2026-02-26 16:27:36 [INFO] Epoch [33/60]  Train: loss=1.0420 acc=71.30%  |  Val: loss=1.2192 acc=63.00%  |  LR: 0.000981  Time: 00:00:31
+2026-02-26 16:28:07 [INFO] Epoch [34/60]  Train: loss=1.0384 acc=71.58%  |  Val: loss=1.2101 acc=64.14%  |  LR: 0.000973  Time: 00:00:31
+2026-02-26 16:28:38 [INFO] Epoch [35/60]  Train: loss=1.0256 acc=72.07%  |  Val: loss=1.2019 acc=64.07%  |  LR: 0.000963  Time: 00:00:31
+2026-02-26 16:29:09 [INFO] Epoch [36/60]  Train: loss=1.0248 acc=72.31%  |  Val: loss=1.1911 acc=64.98%  |  LR: 0.000952  Time: 00:00:31
+2026-02-26 16:29:41 [INFO] Epoch [37/60]  Train: loss=1.0164 acc=72.51%  |  Val: loss=1.2052 acc=64.52%  |  LR: 0.000940  Time: 00:00:31
+2026-02-26 16:30:12 [INFO] Epoch [38/60]  Train: loss=1.0060 acc=73.27%  |  Val: loss=1.2170 acc=64.36%  |  LR: 0.000926  Time: 00:00:31
+2026-02-26 16:30:43 [INFO] Epoch [39/60]  Train: loss=1.0040 acc=73.06%  |  Val: loss=1.2159 acc=64.18%  |  LR: 0.000911  Time: 00:00:31
+2026-02-26 16:31:14 [INFO] Epoch [40/60]  Train: loss=0.9908 acc=73.88%  |  Val: loss=1.1981 acc=64.53%  |  LR: 0.000895  Time: 00:00:31
+2026-02-26 16:31:46 [INFO] Epoch [41/60]  Train: loss=0.9848 acc=74.19%  |  Val: loss=1.2346 acc=64.10%  |  LR: 0.000877  Time: 00:00:31
+2026-02-26 16:32:17 [INFO] Epoch [42/60]  Train: loss=0.9742 acc=74.90%  |  Val: loss=1.2381 acc=63.10%  |  LR: 0.000858  Time: 00:00:31
+2026-02-26 16:32:48 [INFO] Epoch [43/60]  Train: loss=0.9632 acc=75.34%  |  Val: loss=1.2274 acc=64.66%  |  LR: 0.000839  Time: 00:00:31
+2026-02-26 16:33:19 [INFO] Epoch [44/60]  Train: loss=0.9557 acc=75.64%  |  Val: loss=1.2113 acc=65.20%  |  LR: 0.000818  Time: 00:00:31
+2026-02-26 16:33:51 [INFO] Epoch [45/60]  Train: loss=0.9497 acc=75.96%  |  Val: loss=1.2115 acc=65.25%  |  LR: 0.000796  Time: 00:00:31
+2026-02-26 16:34:22 [INFO] Epoch [46/60]  Train: loss=0.9334 acc=76.88%  |  Val: loss=1.2186 acc=65.13%  |  LR: 0.000773  Time: 00:00:31
+2026-02-26 16:34:53 [INFO] Epoch [47/60]  Train: loss=0.9297 acc=76.88%  |  Val: loss=1.2211 acc=65.23%  |  LR: 0.000750  Time: 00:00:31
+2026-02-26 16:35:24 [INFO] Epoch [48/60]  Train: loss=0.9167 acc=77.44%  |  Val: loss=1.2044 acc=66.04%  |  LR: 0.000726  Time: 00:00:31
+2026-02-26 16:35:25 [INFO]   -> Best model saved (acc=66.04%)
+2026-02-26 16:35:56 [INFO] Epoch [49/60]  Train: loss=0.9025 acc=78.34%  |  Val: loss=1.2354 acc=65.32%  |  LR: 0.000701  Time: 00:00:31
+2026-02-26 16:36:27 [INFO] Epoch [50/60]  Train: loss=0.8910 acc=78.95%  |  Val: loss=1.2147 acc=65.52%  |  LR: 0.000675  Time: 00:00:31
+2026-02-26 16:36:58 [INFO] Epoch [51/60]  Train: loss=0.8804 acc=79.42%  |  Val: loss=1.2252 acc=65.94%  |  LR: 0.000649  Time: 00:00:31
+2026-02-26 16:37:30 [INFO] Epoch [52/60]  Train: loss=0.8713 acc=79.91%  |  Val: loss=1.2299 acc=65.81%  |  LR: 0.000623  Time: 00:00:31
+2026-02-26 16:38:01 [INFO] Epoch [53/60]  Train: loss=0.8596 acc=80.51%  |  Val: loss=1.2456 acc=65.55%  |  LR: 0.000596  Time: 00:00:31
+2026-02-26 16:38:32 [INFO] Epoch [54/60]  Train: loss=0.8453 acc=81.04%  |  Val: loss=1.2480 acc=65.39%  |  LR: 0.000569  Time: 00:00:31
+2026-02-26 16:39:03 [INFO] Epoch [55/60]  Train: loss=0.8298 acc=81.85%  |  Val: loss=1.2471 acc=65.88%  |  LR: 0.000541  Time: 00:00:31
+2026-02-26 16:39:34 [INFO] Epoch [56/60]  Train: loss=0.8192 acc=82.36%  |  Val: loss=1.2306 acc=66.49%  |  LR: 0.000514  Time: 00:00:31
+2026-02-26 16:39:35 [INFO]   -> Best model saved (acc=66.49%)
+2026-02-26 16:40:06 [INFO] Epoch [57/60]  Train: loss=0.7994 acc=83.52%  |  Val: loss=1.2389 acc=66.58%  |  LR: 0.000486  Time: 00:00:31
+2026-02-26 16:40:06 [INFO]   -> Best model saved (acc=66.58%)
+2026-02-26 16:40:37 [INFO] Epoch [58/60]  Train: loss=0.7919 acc=83.83%  |  Val: loss=1.2517 acc=66.61%  |  LR: 0.000459  Time: 00:00:31
+2026-02-26 16:40:38 [INFO]   -> Best model saved (acc=66.61%)
+2026-02-26 16:41:09 [INFO] Epoch [59/60]  Train: loss=0.7832 acc=84.26%  |  Val: loss=1.2434 acc=66.68%  |  LR: 0.000431  Time: 00:00:31
+2026-02-26 16:41:09 [INFO]   -> Best model saved (acc=66.68%)
+2026-02-26 16:41:40 [INFO] Epoch [60/60]  Train: loss=0.7639 acc=85.38%  |  Val: loss=1.2657 acc=66.52%  |  LR: 0.000404  Time: 00:00:31
+2026-02-26 16:41:40 [INFO] 
+============================================================
+2026-02-26 16:41:40 [INFO] Training complete! Total time: 00:18:19
+2026-02-26 16:41:40 [INFO] Best validation accuracy: 66.68%
+2026-02-26 16:41:40 [INFO] Weights saved to: /Users/admin/开发/Workspace/ImageClassification/weights/emotion_recognition
+2026-02-26 16:41:40 [INFO] ============================================================

@@ -1,0 +1,149 @@
+2026-02-26 07:15:58 [INFO] ============================================================
+2026-02-26 07:15:58 [INFO] Detection Training Configuration:
+2026-02-26 07:15:58 [INFO]   batch_size: 24
+2026-02-26 07:15:58 [INFO]   conf_threshold: 0.01
+2026-02-26 07:15:58 [INFO]   det_data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/voc/VOCdevkit
+2026-02-26 07:15:58 [INFO]   det_input_size: 300
+2026-02-26 07:15:58 [INFO]   device: mps
+2026-02-26 07:15:58 [INFO]   epochs: 200
+2026-02-26 07:15:58 [INFO]   lr: 0.005
+2026-02-26 07:15:58 [INFO]   min_lr: 1e-06
+2026-02-26 07:15:58 [INFO]   momentum: 0.9
+2026-02-26 07:15:58 [INFO]   neg_pos_ratio: 3
+2026-02-26 07:15:58 [INFO]   neg_threshold: 0.3
+2026-02-26 07:15:58 [INFO]   nms_threshold: 0.45
+2026-02-26 07:15:58 [INFO]   num_classes: 21
+2026-02-26 07:15:58 [INFO]   num_workers: 0
+2026-02-26 07:15:58 [INFO]   output_dir: /Users/admin/开发/Workspace/ImageClassification/outputs/detection
+2026-02-26 07:15:58 [INFO]   patience: 20
+2026-02-26 07:15:58 [INFO]   pos_threshold: 0.5
+2026-02-26 07:15:58 [INFO]   pretrained: True
+2026-02-26 07:15:58 [INFO]   resume: /Users/admin/开发/Workspace/ImageClassification/weights/detection/last_det.pt
+2026-02-26 07:15:58 [INFO]   save_best: True
+2026-02-26 07:15:58 [INFO]   scheduler: cosine
+2026-02-26 07:15:58 [INFO]   seed: 42
+2026-02-26 07:15:58 [INFO]   voc_year: 2007
+2026-02-26 07:15:58 [INFO]   warmup_epochs: 10
+2026-02-26 07:15:58 [INFO]   weight_decay: 0.0005
+2026-02-26 07:15:58 [INFO]   device (actual): mps
+2026-02-26 07:15:58 [INFO] ============================================================
+2026-02-26 07:15:58 [INFO] Building datasets...
+2026-02-26 07:15:58 [INFO]   Train samples: 5011
+2026-02-26 07:15:58 [INFO]   Val   samples: 2510
+2026-02-26 07:15:58 [INFO] Building SSD detector (num_classes=21)...
+2026-02-26 07:15:59 [INFO]   Total parameters: 13,634,200
+2026-02-26 07:15:59 [INFO]   Total anchors: 2970
+2026-02-26 07:15:59 [INFO] Resumed from epoch 50, best_loss=0.1719
+2026-02-26 07:15:59 [INFO] Start training for 200 epochs...
+2026-02-26 07:15:59 [INFO] Early stopping patience: 20 epochs
+2026-02-26 07:15:59 [INFO] 
+2026-02-26 07:19:08 [INFO] Epoch [51/200]  Train: 0.1960 (cls=0.1211 reg=0.0749)  |  Val: 0.1650 (cls=0.0957 reg=0.0693)  |  LR: 0.001000  Time: 00:03:09
+2026-02-26 07:19:09 [INFO]   -> Best model saved (loss=0.1650)
+2026-02-26 07:22:31 [INFO] Epoch [52/200]  Train: 0.1790 (cls=0.1094 reg=0.0696)  |  Val: 0.1516 (cls=0.0907 reg=0.0609)  |  LR: 0.001500  Time: 00:03:21
+2026-02-26 07:22:31 [INFO]   -> Best model saved (loss=0.1516)
+2026-02-26 07:26:10 [INFO] Epoch [53/200]  Train: 0.1810 (cls=0.1083 reg=0.0728)  |  Val: 0.1493 (cls=0.0870 reg=0.0623)  |  LR: 0.002000  Time: 00:03:37
+2026-02-26 07:26:10 [INFO]   -> Best model saved (loss=0.1493)
+2026-02-26 07:30:03 [INFO] Epoch [54/200]  Train: 0.1847 (cls=0.1078 reg=0.0769)  |  Val: 0.1604 (cls=0.0851 reg=0.0753)  |  LR: 0.002500  Time: 00:03:51
+2026-02-26 07:30:03 [INFO]   -> No improvement for 1 epoch(s)
+2026-02-26 07:33:54 [INFO] Epoch [55/200]  Train: 0.1916 (cls=0.1094 reg=0.0821)  |  Val: 0.1702 (cls=0.0918 reg=0.0784)  |  LR: 0.003000  Time: 00:03:50
+2026-02-26 07:33:54 [INFO]   -> No improvement for 2 epoch(s)
+2026-02-26 07:37:44 [INFO] Epoch [56/200]  Train: 0.1995 (cls=0.1131 reg=0.0864)  |  Val: 0.1853 (cls=0.1012 reg=0.0841)  |  LR: 0.003500  Time: 00:03:49
+2026-02-26 07:37:44 [INFO]   -> No improvement for 3 epoch(s)
+2026-02-26 07:41:36 [INFO] Epoch [57/200]  Train: 0.2188 (cls=0.1235 reg=0.0952)  |  Val: 0.2271 (cls=0.1158 reg=0.1113)  |  LR: 0.004000  Time: 00:03:51
+2026-02-26 07:41:36 [INFO]   -> No improvement for 4 epoch(s)
+2026-02-26 07:47:45 [INFO] ============================================================
+2026-02-26 07:47:45 [INFO] Detection Training Configuration:
+2026-02-26 07:47:45 [INFO]   batch_size: 24
+2026-02-26 07:47:45 [INFO]   conf_threshold: 0.01
+2026-02-26 07:47:45 [INFO]   det_data_root: /Users/admin/开发/Workspace/ImageClassification/datasets/voc/VOCdevkit
+2026-02-26 07:47:45 [INFO]   det_input_size: 300
+2026-02-26 07:47:45 [INFO]   device: mps
+2026-02-26 07:47:45 [INFO]   epochs: 200
+2026-02-26 07:47:45 [INFO]   lr: 0.005
+2026-02-26 07:47:45 [INFO]   min_lr: 1e-06
+2026-02-26 07:47:45 [INFO]   momentum: 0.9
+2026-02-26 07:47:45 [INFO]   neg_pos_ratio: 3
+2026-02-26 07:47:45 [INFO]   neg_threshold: 0.3
+2026-02-26 07:47:45 [INFO]   nms_threshold: 0.45
+2026-02-26 07:47:45 [INFO]   num_classes: 21
+2026-02-26 07:47:45 [INFO]   num_workers: 0
+2026-02-26 07:47:45 [INFO]   output_dir: /Users/admin/开发/Workspace/ImageClassification/weights/detection
+2026-02-26 07:47:45 [INFO]   patience: 20
+2026-02-26 07:47:45 [INFO]   pos_threshold: 0.5
+2026-02-26 07:47:45 [INFO]   pretrained: True
+2026-02-26 07:47:45 [INFO]   resume: /Users/admin/开发/Workspace/ImageClassification/weights/detection/last_det.pt
+2026-02-26 07:47:45 [INFO]   save_best: True
+2026-02-26 07:47:45 [INFO]   scheduler: cosine
+2026-02-26 07:47:45 [INFO]   seed: 42
+2026-02-26 07:47:45 [INFO]   voc_year: 2007
+2026-02-26 07:47:45 [INFO]   warmup_epochs: 10
+2026-02-26 07:47:45 [INFO]   weight_decay: 0.0005
+2026-02-26 07:47:45 [INFO]   device (actual): mps
+2026-02-26 07:47:45 [INFO] ============================================================
+2026-02-26 07:47:45 [INFO] Building datasets...
+2026-02-26 07:47:45 [INFO]   Train samples: 5011
+2026-02-26 07:47:45 [INFO]   Val   samples: 2510
+2026-02-26 07:47:45 [INFO] Building SSD detector (num_classes=21)...
+2026-02-26 07:47:45 [INFO]   Total parameters: 13,634,200
+2026-02-26 07:47:45 [INFO]   Total anchors: 2970
+2026-02-26 07:47:45 [INFO] Resumed from epoch 57, best_loss=0.1493
+2026-02-26 07:47:45 [INFO] Start training for 200 epochs...
+2026-02-26 07:47:45 [INFO] Early stopping patience: 20 epochs
+2026-02-26 07:47:45 [INFO] 
+2026-02-26 07:51:38 [INFO] Epoch [58/200]  Train: 0.2398 (cls=0.1358 reg=0.1041)  |  Val: 0.2317 (cls=0.1188 reg=0.1129)  |  LR: 0.001000  Time: 00:03:52
+2026-02-26 07:51:38 [INFO]   -> No improvement for 5 epoch(s)
+2026-02-26 07:55:23 [INFO] Epoch [59/200]  Train: 0.1823 (cls=0.1133 reg=0.0690)  |  Val: 0.1362 (cls=0.0788 reg=0.0574)  |  LR: 0.001500  Time: 00:03:44
+2026-02-26 07:55:24 [INFO]   -> Best model saved (loss=0.1362)
+2026-02-26 07:59:04 [INFO] Epoch [60/200]  Train: 0.1499 (cls=0.0865 reg=0.0634)  |  Val: 0.1239 (cls=0.0671 reg=0.0568)  |  LR: 0.002000  Time: 00:03:39
+2026-02-26 07:59:04 [INFO]   -> Best model saved (loss=0.1239)
+2026-02-26 08:02:37 [INFO] Epoch [61/200]  Train: 0.1391 (cls=0.0750 reg=0.0640)  |  Val: 0.1280 (cls=0.0631 reg=0.0650)  |  LR: 0.002500  Time: 00:03:32
+2026-02-26 08:02:37 [INFO]   -> No improvement for 1 epoch(s)
+2026-02-26 08:05:59 [INFO] Epoch [62/200]  Train: 0.1356 (cls=0.0702 reg=0.0655)  |  Val: 0.1326 (cls=0.0615 reg=0.0712)  |  LR: 0.003000  Time: 00:03:20
+2026-02-26 08:05:59 [INFO]   -> No improvement for 2 epoch(s)
+2026-02-26 08:09:20 [INFO] Epoch [63/200]  Train: 0.1374 (cls=0.0678 reg=0.0696)  |  Val: 0.1551 (cls=0.0638 reg=0.0913)  |  LR: 0.003500  Time: 00:03:20
+2026-02-26 08:09:20 [INFO]   -> No improvement for 3 epoch(s)
+2026-02-26 08:12:41 [INFO] Epoch [64/200]  Train: 0.1461 (cls=0.0711 reg=0.0750)  |  Val: 0.1614 (cls=0.0728 reg=0.0886)  |  LR: 0.004000  Time: 00:03:18
+2026-02-26 08:12:41 [INFO]   -> No improvement for 4 epoch(s)
+2026-02-26 08:16:01 [INFO] Epoch [65/200]  Train: 0.2097 (cls=0.1109 reg=0.0988)  |  Val: 0.1936 (cls=0.1020 reg=0.0915)  |  LR: 0.004500  Time: 00:03:19
+2026-02-26 08:16:01 [INFO]   -> No improvement for 5 epoch(s)
+2026-02-26 08:19:23 [INFO] Epoch [66/200]  Train: 0.2965 (cls=0.1826 reg=0.1139)  |  Val: 0.3926 (cls=0.2523 reg=0.1403)  |  LR: 0.005000  Time: 00:03:20
+2026-02-26 08:19:23 [INFO]   -> No improvement for 6 epoch(s)
+2026-02-26 08:22:42 [INFO] Epoch [67/200]  Train: 0.5466 (cls=0.4147 reg=0.1320)  |  Val: 0.5892 (cls=0.4553 reg=0.1338)  |  LR: 0.005000  Time: 00:03:19
+2026-02-26 08:22:42 [INFO]   -> No improvement for 7 epoch(s)
+2026-02-26 08:26:03 [INFO] Epoch [68/200]  Train: 0.6876 (cls=0.5610 reg=0.1266)  |  Val: 0.6094 (cls=0.4876 reg=0.1218)  |  LR: 0.005000  Time: 00:03:20
+2026-02-26 08:26:03 [INFO]   -> No improvement for 8 epoch(s)
+2026-02-26 08:29:21 [INFO] Epoch [69/200]  Train: 0.6969 (cls=0.5679 reg=0.1291)  |  Val: 0.6717 (cls=0.5386 reg=0.1331)  |  LR: 0.004999  Time: 00:03:18
+2026-02-26 08:29:21 [INFO]   -> No improvement for 9 epoch(s)
+2026-02-26 08:32:41 [INFO] Epoch [70/200]  Train: 0.6932 (cls=0.5664 reg=0.1268)  |  Val: 0.8097 (cls=0.6779 reg=0.1318)  |  LR: 0.004997  Time: 00:03:18
+2026-02-26 08:32:41 [INFO]   -> No improvement for 10 epoch(s)
+2026-02-26 08:36:01 [INFO] Epoch [71/200]  Train: 0.6637 (cls=0.5371 reg=0.1265)  |  Val: 0.8563 (cls=0.7263 reg=0.1300)  |  LR: 0.004995  Time: 00:03:19
+2026-02-26 08:36:01 [INFO]   -> No improvement for 11 epoch(s)
+2026-02-26 08:39:21 [INFO] Epoch [72/200]  Train: 0.6315 (cls=0.5044 reg=0.1271)  |  Val: 0.6077 (cls=0.4736 reg=0.1342)  |  LR: 0.004991  Time: 00:03:19
+2026-02-26 08:39:21 [INFO]   -> No improvement for 12 epoch(s)
+2026-02-26 08:42:41 [INFO] Epoch [73/200]  Train: 0.5927 (cls=0.4686 reg=0.1241)  |  Val: 0.6345 (cls=0.5045 reg=0.1300)  |  LR: 0.004988  Time: 00:03:18
+2026-02-26 08:42:41 [INFO]   -> No improvement for 13 epoch(s)
+2026-02-26 08:46:00 [INFO] Epoch [74/200]  Train: 0.5863 (cls=0.4606 reg=0.1257)  |  Val: 0.5664 (cls=0.4311 reg=0.1353)  |  LR: 0.004983  Time: 00:03:19
+2026-02-26 08:46:00 [INFO]   -> No improvement for 14 epoch(s)
+2026-02-26 08:49:22 [INFO] Epoch [75/200]  Train: 0.5204 (cls=0.3961 reg=0.1243)  |  Val: 0.4950 (cls=0.3751 reg=0.1199)  |  LR: 0.004978  Time: 00:03:20
+2026-02-26 08:49:22 [INFO]   -> No improvement for 15 epoch(s)
+2026-02-26 08:52:51 [INFO] Epoch [76/200]  Train: 0.5133 (cls=0.3881 reg=0.1253)  |  Val: 0.5273 (cls=0.4060 reg=0.1213)  |  LR: 0.004972  Time: 00:03:28
+2026-02-26 08:52:51 [INFO]   -> No improvement for 16 epoch(s)
+2026-02-26 08:56:13 [INFO] Epoch [77/200]  Train: 0.4851 (cls=0.3654 reg=0.1198)  |  Val: 0.4390 (cls=0.3082 reg=0.1308)  |  LR: 0.004966  Time: 00:03:22
+2026-02-26 08:56:13 [INFO]   -> No improvement for 17 epoch(s)
+2026-02-26 08:59:34 [INFO] Epoch [78/200]  Train: 0.4198 (cls=0.3027 reg=0.1171)  |  Val: 0.3965 (cls=0.2809 reg=0.1156)  |  LR: 0.004959  Time: 00:03:20
+2026-02-26 08:59:34 [INFO]   -> No improvement for 18 epoch(s)
+2026-02-26 09:02:55 [INFO] Epoch [79/200]  Train: 0.3929 (cls=0.2786 reg=0.1144)  |  Val: 0.3450 (cls=0.2335 reg=0.1115)  |  LR: 0.004951  Time: 00:03:20
+2026-02-26 09:02:55 [INFO]   -> No improvement for 19 epoch(s)
+2026-02-26 09:06:16 [INFO] Epoch [80/200]  Train: 0.3852 (cls=0.2734 reg=0.1118)  |  Val: 0.3317 (cls=0.2086 reg=0.1231)  |  LR: 0.004942  Time: 00:03:20
+2026-02-26 09:06:16 [INFO]   -> No improvement for 20 epoch(s)
+2026-02-26 09:06:16 [INFO] 
+2026-02-26 09:06:16 [INFO] ============================================================
+2026-02-26 09:06:16 [INFO] Early stopping triggered! No improvement for 20 epochs.
+2026-02-26 09:06:16 [INFO] Best validation loss: 0.1239
+2026-02-26 09:06:16 [INFO] ============================================================
+2026-02-26 09:06:16 [INFO] 
+2026-02-26 09:06:16 [INFO] ============================================================
+2026-02-26 09:06:16 [INFO] Training complete! Total time: 01:18:30
+2026-02-26 09:06:16 [INFO] Best validation loss: 0.1239
+2026-02-26 09:06:16 [INFO] Weights saved to: /Users/admin/开发/Workspace/ImageClassification/weights/detection
+2026-02-26 09:06:16 [INFO] ============================================================
