@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# 训练输出
+runs/
+outputs/
+
+# 数据集（如果很大的话）
+# data/images/
+# data/labels/
+
+# 模型权重（可选）
+# *.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 环境
+venv/
+env/
+ENV/
+.venv/

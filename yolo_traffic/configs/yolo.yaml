@@ -1,8 +1,8 @@
 # YOLOv8 目标检测配置
 
 # 数据
-data_yaml: "coco128.yaml"          # COCO128 数据集配置（会自动下载到 ~/datasets/）
-num_classes: 80                    # COCO 80 类
+data_yaml: "data/data.yaml"        # 交通数据集配置
+num_classes: 6                     # 交通 6 类
 
 # 模型
 model_size: "n"                    # n/s/m/l/x (nano/small/medium/large/xlarge)
@@ -41,7 +41,7 @@ mosaic: 1.0                        # Mosaic 增强概率
 mixup: 0.0                         # MixUp 增强概率
 
 # 保存
-output_dir: "outputs"
+output_dir: "runs/detect/coco_traffic"
 save_period: -1                    # 每 N epochs 保存一次 (-1 表示只保存最后)
 save_best: true
 

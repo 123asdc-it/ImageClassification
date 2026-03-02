@@ -20,11 +20,11 @@ yolo_traffic/
 │   ├── data.yaml               # 数据集配置
 │   ├── images/                 # 图片
 │   └── labels/                 # YOLO 格式标签
-├── weights/
-│   ├── yolov8n.pt              # 预训练 YOLOv8n
-│   ├── yolov8s.pt              # 预训练 YOLOv8s
-│   └── coco_traffic/train/weights/  # 训练权重
-├── outputs/                    # 训练和测试输出
+├── runs/                       # 训练和测试输出
+│   └── detect/
+│       └── coco_traffic/
+│           └── train/
+│               └── weights/    # 训练权重
 └── README.md
 ```
 
@@ -35,25 +35,22 @@ person, bicycle, car, motorcycle, bus, truck（共 6 类）
 ## 使用方法
 
 ```bash
-cd yolo_traffic
+# 训练（使用配置文件）
+python3 scripts/train_yolo.py --config configs/yolo.yaml
 
-# 训练 (使用 Python API 避免 mosaic shape mismatch bug)
-python3 -c "
-from ultralytics import YOLO
-model = YOLO('weights/yolov8n.pt')
-model.train(
-    data='data/data.yaml',
-    epochs=100, imgsz=640, device='cpu',
-    batch=8, workers=0, mosaic=0,
-    project='weights/coco_traffic', name='train', exist_ok=True
-)
-"
+# 或使用命令行参数覆盖配置
+python3 scripts/train_yolo.py \
+    --config configs/yolo.yaml \
+    --epochs 50 \
+    --batch_size 8 \
+    --device cpu
 
 # 测试
-python scripts/test_yolo.py \
-    --weights weights/coco_traffic/train/weights/best.pt \
-    --source path/to/image.jpg --save
+python3 scripts/test_yolo.py \
+    --weights runs/detect/coco_traffic/train/weights/best.pt \
+    --source data/images/val/000000174482.jpg \
+    --save --device cpu
 
 # 可视化训练结果
-python scripts/visualize.py --results_dir weights/coco_traffic/train
+python3 scripts/visualize.py --results_dir runs/detect/coco_traffic/train
 ```

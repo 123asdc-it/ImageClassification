@@ -135,10 +135,15 @@ def main():
     # 开始训练
     results = model.train(**train_args)
 
+    # 获取实际保存路径
+    save_dir = results.save_dir if hasattr(results, 'save_dir') else f"{output_dir}/train"
+
     print()
     print("=" * 70)
     print("Training complete!")
-    print(f"Results saved to: {output_dir}/train")
+    print(f"Results saved to: {save_dir}")
+    print(f"Best weights: {save_dir}/weights/best.pt")
+    print(f"Last weights: {save_dir}/weights/last.pt")
     print("=" * 70)
 
 

@@ -77,10 +77,18 @@ def main():
                 cls_name = r.names[cls_id]
                 print(f"    {cls_name}: {conf:.3f}")
 
-    print()
-    print("=" * 70)
-    print(f"Results saved to: {args.project}/{args.name}")
-    print("=" * 70)
+    # 获取实际保存路径
+    if args.save and len(results) > 0:
+        save_dir = results[0].save_dir if hasattr(results[0], 'save_dir') else f"{args.project}/{args.name}"
+        print()
+        print("=" * 70)
+        print(f"Results saved to: {save_dir}")
+        print("=" * 70)
+    else:
+        print()
+        print("=" * 70)
+        print("Inference complete (results not saved)")
+        print("=" * 70)
 
 
 if __name__ == "__main__":
